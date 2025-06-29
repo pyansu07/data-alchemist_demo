@@ -28,10 +28,35 @@ Resource allocation in organizations often starts with scattered spreadsheets: c
 - **AI Rule Recommendations:** The AI proactively suggests new rules and highlights hidden risks based on patterns in the data.
 - **Natural Language to Rule:** Users can describe rules in plain English; the AI converts them into structured logic.
 
+  ## The Role of the AI Co-Pilot
+
+At the heart of Data Alchemist is the **AI Co-Pilot**, an intelligent assistant that guides users through every step of the data cleaning and configuration process. The Co-Pilot leverages the Google Gemini API to provide natural language understanding, proactive suggestions, and deep validation, making advanced data management accessible to non-technical users.
+
+---
+
+## How the AI Co-Pilot Works
+
+- **Conversational Data Modification:**  
+  Users can instruct the Co-Pilot in plain English (e.g., “Change the max load for all workers in Group A to 4”), and the AI generates and applies safe, reviewable changes to the data grid.
+
+- **AI-Powered Validation & Error Correction:**  
+  The Co-Pilot runs comprehensive checks for missing columns, broken references, skill mismatches, malformed lists, and more—on upload and every edit. It highlights errors, suggests fixes, and lets users apply corrections with one click.
+
+- **Rule Recommendations & Natural Language Rule Creation:**  
+  The Co-Pilot analyzes data patterns to suggest new business rules or highlight risks (e.g., missing skills for tasks, overloaded workers). Users can also describe rules in plain English, and the AI translates them into structured logic.
+
+- **What-If Simulations:**  
+  Users can ask hypothetical questions (e.g., “What happens if I add a rule for T1 and T2 to co-run?”), and the Co-Pilot provides AI-generated impact analysis without changing the actual data.
+
+- **Readiness Scoring:**  
+  The Co-Pilot delivers a dynamic readiness score and a concise AI-generated summary of strengths and weaknesses, so users know exactly when their data is ready for export.
+
+---
+
+
 ### 4. **Prioritization and Export**
 - **Prioritization Controls:** Sliders and inputs let users set what matters most (e.g., fairness, priority fulfillment).
 - **One-Click Export:** When all errors are resolved, users export clean CSVs and a rules.json file, ready for downstream allocation engines.
-
 ---
 
 ## How Does It Work?
